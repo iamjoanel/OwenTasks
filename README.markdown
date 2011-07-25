@@ -1,10 +1,10 @@
-#OwenTask
+#OwenTasks
 
 Built in partial fulfillment of **Database Management Systems 1** (ITED123).
 
 **Professor** : Mr. Jeff Palma
 
-**Group Members : ** 
+**Group Members** :  
 
 Crisostomo, John Dominic
                   
