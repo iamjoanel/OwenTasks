@@ -1,4 +1,7 @@
 OwenTasks::Application.routes.draw do
+  get "today/new"
+  
+  root :to => "today#new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
