@@ -1,0 +1,7 @@
+<header>
+  <h1>Header Image here</h1>
+  <nav>
+    <%= link_to "Today", '#' %>
+    <%= link_to "Logout", '#' %>
+  </nav>
+</header>
