@@ -1,0 +1,11 @@
+<div class="tasks">
+  <%= link_to "New Task", new_task_path %>
+  <h2>Today's Tasks</h2>
+  <% for task in @user.tasks %>
+  <ul>
+    <li><%= task.task %><br />
+    Due on <%= task.due %></li>
+  </ul>
+  <% end %>
+</div>
+

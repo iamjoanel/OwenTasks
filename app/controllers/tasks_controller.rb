@@ -7,7 +7,7 @@ class TasksController < ApplicationController
     @task = Task.new(params[:task])
     @task.user_id = session[:user_id]
     if @task.save
-      redirect_to root_url, :notice => "Task saved!"
+      redirect_to today_path, :notice => "Task saved!"
     else
       render "new"
     end
