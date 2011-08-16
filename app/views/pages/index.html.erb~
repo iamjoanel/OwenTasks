@@ -1,0 +1,9 @@
+<div class="tasks">Today's Tasks
+  <% for task in current_user.tasks %>
+  <ul>
+    <li><%= task %></li>
+  </ul>
+  <% end %>
+</div>
+<div class="right">Overdue Tasks</div>
+<div class="right">Upcoming</div>

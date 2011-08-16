@@ -1,0 +1,10 @@
+<div class="tasks">Today's Tasks
+  <% for task in @user.tasks %>
+  <ul>
+    <li><%= task.task %><br />
+    Due on <%= task.due %></li>
+  </ul>
+  <% end %>
+</div>
+<div class="right">Overdue Tasks</div>
+<div class="right">Upcoming</div>
