@@ -1,1 +1,108 @@
-/* Empty stylesheet for now, this will be used for the app */
+.container
+{
+    width: 910px;
+}
+
+body
+{
+    backround: #fff;
+}
+
+header
+{
+    padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #f96f09;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f96f09;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #f96f09;
+}
+
+/* Navigation */
+
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #f96f09;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sign up button */
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  background: #f96f09;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+  float: none;
+}
