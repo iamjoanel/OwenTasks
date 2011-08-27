@@ -3,12 +3,11 @@
   <%= link_to logo, root_path %>
     <nav>
     <ul>
-      <li><%= link_to "Home", root_path %></li> 
       <% if current_user  %>
         <li>Logged in as <%= current_user.email %></li>
         <li><%= link_to "Log out", log_out_path %></li>
       <% else  %>
-        <li><%= link_to "Sign up", sign_up_path %> 
+        <li><%= link_to "Home", root_path %> <%= link_to "Sign up", sign_up_path %> 
 	<%= link_to "Log in", log_in_path %></li>
       <% end %>
     </ul>
