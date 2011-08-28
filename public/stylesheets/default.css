@@ -44,6 +44,7 @@ a.signup_button {
   font-weight: bold;
   padding: 20px;
 }
+
 footer {
   text-align: center;
   margin-top: 10px;
@@ -93,3 +94,15 @@ nav ul li a:hover {
   text-decoration: blink;
 }
 
+a.newtask_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 60px;
+  color: #fff;
+  background: #f69f09;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 20px;
+}
