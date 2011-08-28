@@ -17,10 +17,18 @@ h1
     color: #f69f09;
 }
 
+h2
+{
+    color: #f69f09;
+}
 header img {
   padding: 1em;
 }
 
+p
+{
+    text-align: center;
+}
 
 /* Sign up button */
 
