@@ -20,9 +20,18 @@ h1
 h2
 {
     color: #f69f09;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 header img {
   padding: 1em;
+}
+
+.lines
+{
+    border: double;
 }
 
 p
@@ -79,6 +88,7 @@ nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
+  color: #f69f09;
 }
 
 nav ul li a {
@@ -87,7 +97,7 @@ nav ul li a {
 }
 
 nav ul li a:visited {
-  color: #09c;
+    color: #f69f09;
 }
 
 nav ul li a:hover {

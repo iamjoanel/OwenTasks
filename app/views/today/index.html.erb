@@ -1,8 +1,8 @@
 <div class="tasks">
-<%= link_to "New Task", new_task_path, :class => "newtask_button round" %>
+
   <h2>Today's Tasks</h2>
   <% for task in @user.tasks %>
-  <ul>
+  <ul  class="lines">
     <li><%= task.task %><br />
     Due on <%= task.due %></li>
   </ul>
