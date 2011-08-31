@@ -112,6 +112,11 @@ nav ul li a:hover {
   text-decoration: blink;
 }
 
+a {
+  color: #f69f09;
+  text-decoration: none;
+}
+
 a.newtask_button {
     display: block;
   text-align: center;
