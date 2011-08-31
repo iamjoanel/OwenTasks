@@ -4,6 +4,7 @@ OwenTasks::Application.routes.draw do
   get "index" => "pages#index", :as => "index"
   get "new_task" => "tasks#new", :as => "new_task"
 
+  get "about" => "pages#about", :as => "about"
   get "log_in" => "sessions#new", :as => "log_in"
   get "log_out" => "sessions#destroy", :as => "log_out"
 
