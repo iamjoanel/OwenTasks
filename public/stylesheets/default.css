@@ -121,18 +121,3 @@ a:hover {
   color: #f69f09;
   text-decoration: underline;
 }
-
-a:visited {
-  color: #f69f09;
-}
-a.newtask_button {
-    display: block;
-  text-align: center;
-  width: 60px;
-  height: 10px;
-  color: #fff;
-  background: #f69f09;
-  font-size: 100%;
-  font-weight: bold;
-  padding: 10px;
-}
