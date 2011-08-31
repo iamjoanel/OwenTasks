@@ -117,6 +117,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #f69f09;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #f69f09;
+}
 a.newtask_button {
     display: block;
   text-align: center;
